@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PopDateViewController" customModule="TodoApp_test" customModuleProvider="target">
+            <connections>
+                <outlet property="datePicker" destination="z2A-rr-8Wv" id="miV-ga-afK"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="330" height="228"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="z2A-rr-8Wv">
+                    <rect key="frame" x="0.0" y="0.0" width="330" height="160"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="160" id="fHI-X9-39S"/>
+                    </constraints>
+                    <date key="date" timeIntervalSinceReferenceDate="469738836.19099498">
+                        <!--2015-11-20 19:00:36 +0000-->
+                    </date>
+                </datePicker>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2zg-bf-0hs">
+                    <rect key="frame" x="272" y="181" width="37" height="30"/>
+                    <animations/>
+                    <state key="normal" title="Done"/>
+                    <connections>
+                        <action selector="doneButtonTapped:" destination="-1" eventType="touchUpInside" id="Esp-7X-uPw"/>
+                    </connections>
+                </button>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="2zg-bf-0hs" secondAttribute="trailing" constant="21" id="1zU-JJ-WaH"/>
+                <constraint firstItem="z2A-rr-8Wv" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="cUa-sr-W3p"/>
+                <constraint firstAttribute="bottom" secondItem="2zg-bf-0hs" secondAttribute="bottom" constant="17" id="gul-Oh-8GJ"/>
+                <constraint firstItem="z2A-rr-8Wv" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="kBU-o6-t1I"/>
+                <constraint firstAttribute="trailing" secondItem="z2A-rr-8Wv" secondAttribute="trailing" id="wXW-AA-shz"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="334" y="-35"/>
+        </view>
+    </objects>
+</document>

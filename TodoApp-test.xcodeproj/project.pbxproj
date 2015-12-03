@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B5177EE1BFF996C00C80B8C /* Todo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5177EC1BFF996C00C80B8C /* Todo+CoreDataProperties.swift */; };
+		7B5177EF1BFF996C00C80B8C /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5177ED1BFF996C00C80B8C /* Todo.swift */; };
+		7B5177F41BFFA52D00C80B8C /* PopDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5177F21BFFA52D00C80B8C /* PopDateViewController.swift */; };
+		7B5177F51BFFA52D00C80B8C /* PopDateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B5177F31BFFA52D00C80B8C /* PopDateViewController.xib */; };
+		7B5177F71BFFA66A00C80B8C /* PopDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5177F61BFFA66A00C80B8C /* PopDatePicker.swift */; };
+		7B5177FA1C002B0200C80B8C /* NSDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5177F91C002B0200C80B8C /* NSDateExtension.swift */; };
 		7BFBFC821BF258B800F72B29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFBFC811BF258B800F72B29 /* AppDelegate.swift */; };
 		7BFBFC841BF258B800F72B29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFBFC831BF258B800F72B29 /* ViewController.swift */; };
 		7BFBFC871BF258B800F72B29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BFBFC851BF258B800F72B29 /* Main.storyboard */; };
 		7BFBFC8A1BF258B800F72B29 /* TodoApp_test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7BFBFC881BF258B800F72B29 /* TodoApp_test.xcdatamodeld */; };
 		7BFBFC8C1BF258B800F72B29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BFBFC8B1BF258B800F72B29 /* Assets.xcassets */; };
 		7BFBFC8F1BF258B800F72B29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BFBFC8D1BF258B800F72B29 /* LaunchScreen.storyboard */; };
+		7BFBFC971BF258E600F72B29 /* TodoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFBFC961BF258E600F72B29 /* TodoManager.swift */; };
+		7BFBFC991BF2596800F72B29 /* Todo2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFBFC981BF2596800F72B29 /* Todo2.swift */; };
+		7BFBFC9B1BF2652E00F72B29 /* AddTodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFBFC9A1BF2652E00F72B29 /* AddTodoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B5177EC1BFF996C00C80B8C /* Todo+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Todo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7B5177ED1BFF996C00C80B8C /* Todo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		7B5177F21BFFA52D00C80B8C /* PopDateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopDateViewController.swift; sourceTree = "<group>"; };
+		7B5177F31BFFA52D00C80B8C /* PopDateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopDateViewController.xib; sourceTree = "<group>"; };
+		7B5177F61BFFA66A00C80B8C /* PopDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopDatePicker.swift; sourceTree = "<group>"; };
+		7B5177F91C002B0200C80B8C /* NSDateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDateExtension.swift; sourceTree = "<group>"; };
 		7BFBFC7E1BF258B800F72B29 /* TodoApp-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TodoApp-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BFBFC811BF258B800F72B29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7BFBFC831BF258B800F72B29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +39,9 @@
 		7BFBFC8B1BF258B800F72B29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BFBFC8E1BF258B800F72B29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7BFBFC901BF258B800F72B29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BFBFC961BF258E600F72B29 /* TodoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoManager.swift; sourceTree = "<group>"; };
+		7BFBFC981BF2596800F72B29 /* Todo2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Todo2.swift; sourceTree = "<group>"; };
+		7BFBFC9A1BF2652E00F72B29 /* AddTodoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTodoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,9 +55,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B5177F81BFFAF8500C80B8C /* PopDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				7B5177F61BFFA66A00C80B8C /* PopDatePicker.swift */,
+				7B5177F21BFFA52D00C80B8C /* PopDateViewController.swift */,
+				7B5177F31BFFA52D00C80B8C /* PopDateViewController.xib */,
+			);
+			name = PopDatePicker;
+			sourceTree = "<group>";
+		};
 		7BFBFC751BF258B800F72B29 = {
 			isa = PBXGroup;
 			children = (
+				7B5177EC1BFF996C00C80B8C /* Todo+CoreDataProperties.swift */,
+				7B5177ED1BFF996C00C80B8C /* Todo.swift */,
 				7BFBFC801BF258B800F72B29 /* TodoApp-test */,
 				7BFBFC7F1BF258B800F72B29 /* Products */,
 			);
@@ -56,9 +86,14 @@
 		7BFBFC801BF258B800F72B29 /* TodoApp-test */ = {
 			isa = PBXGroup;
 			children = (
+				7B5177F81BFFAF8500C80B8C /* PopDatePicker */,
 				7BFBFC811BF258B800F72B29 /* AppDelegate.swift */,
 				7BFBFC831BF258B800F72B29 /* ViewController.swift */,
+				7BFBFC9A1BF2652E00F72B29 /* AddTodoViewController.swift */,
+				7BFBFC961BF258E600F72B29 /* TodoManager.swift */,
+				7BFBFC981BF2596800F72B29 /* Todo2.swift */,
 				7BFBFC851BF258B800F72B29 /* Main.storyboard */,
+				7B5177F91C002B0200C80B8C /* NSDateExtension.swift */,
 				7BFBFC8B1BF258B800F72B29 /* Assets.xcassets */,
 				7BFBFC8D1BF258B800F72B29 /* LaunchScreen.storyboard */,
 				7BFBFC901BF258B800F72B29 /* Info.plist */,
@@ -128,6 +163,7 @@
 				7BFBFC8F1BF258B800F72B29 /* LaunchScreen.storyboard in Resources */,
 				7BFBFC8C1BF258B800F72B29 /* Assets.xcassets in Resources */,
 				7BFBFC871BF258B800F72B29 /* Main.storyboard in Resources */,
+				7B5177F51BFFA52D00C80B8C /* PopDateViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +175,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BFBFC841BF258B800F72B29 /* ViewController.swift in Sources */,
+				7BFBFC971BF258E600F72B29 /* TodoManager.swift in Sources */,
+				7B5177F41BFFA52D00C80B8C /* PopDateViewController.swift in Sources */,
 				7BFBFC8A1BF258B800F72B29 /* TodoApp_test.xcdatamodeld in Sources */,
+				7B5177EF1BFF996C00C80B8C /* Todo.swift in Sources */,
+				7B5177F71BFFA66A00C80B8C /* PopDatePicker.swift in Sources */,
+				7B5177EE1BFF996C00C80B8C /* Todo+CoreDataProperties.swift in Sources */,
 				7BFBFC821BF258B800F72B29 /* AppDelegate.swift in Sources */,
+				7B5177FA1C002B0200C80B8C /* NSDateExtension.swift in Sources */,
+				7BFBFC9B1BF2652E00F72B29 /* AddTodoViewController.swift in Sources */,
+				7BFBFC991BF2596800F72B29 /* Todo2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +332,7 @@
 				7BFBFC951BF258B800F72B29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
